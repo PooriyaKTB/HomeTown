@@ -79,6 +79,7 @@ h1 {
     padding: 2px 0;
     border-bottom: 5px groove #8F2546;
     box-shadow: 0 0 5px #000000;
+    width: auto;
 }
 
 .button {
@@ -89,6 +90,7 @@ h1 {
     box-shadow: 0 0 8px #000000;
     margin: 2px 5px;
     transition: all 0.5s ease;
+    width: fit-content;
 }
 
 .button:hover {
