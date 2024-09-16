@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+/* HEADER */
+#header {
+    background: url(./Images/originalImage.png),
+    linear-gradient(#1062A8, #D39899);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    margin: 0 auto;
+    padding-top: 1rem;
+    font-family: "lalezar", system-ui;
+}
+
+h1 {
+    color: #D39899;
+    text-shadow: 0 0 4px #000000;
+    margin: 2rem 5rem;
+    font-size: 2rem;
+}
+
+@keyframes color {
+    20% {color: #1062A8;}
+    40% {color: #1C9CC5;}
+    60% {color: #6054A8;}
+    80% {color: #8F2546;}
+    100% {color: #C7383C;}
+}
+
+#teh-txt {
+    color: #c97b7d;
+    margin-left: 1rem;
+    font-size: 3rem;
+    animation: color 4s infinite alternate-reverse;
+    text-shadow: 0 0 3px #000000;
+}
+
+#milad {
+    background-color: #f0d9da;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #C7383C;
+    width: 3rem;
+    transition: all 1s ease;
+    margin: 1rem;
+}
+
+#milad:hover {
+    transform: scalex(-1);
+}
+
+#azadi {
+    background-color: #f0d9da;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #8F2546;
+    width: 3rem;
+    transition: all 1s ease;
+    margin: 1rem;
+}
+
+#azadi:hover {
+    transform: scalex(-1);
+}
+
+#nav {
+    background: linear-gradient(#D39899,#6054A8 );
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-size: contain;
+    padding: 2px 0;
+    border-bottom: 5px groove #8F2546;
+    box-shadow: 0 0 5px #000000;
+}
+
+.button {
+    opacity: 80%;
+    border-radius: 20px;
+    padding: 1px 6px 4px 6px;
+    background: linear-gradient(#6054A8, #000000) ;
+    box-shadow: 0 0 8px #000000;
+    margin: 2px 5px;
+    transition: all 0.5s ease;
+}
+
+.button:hover {
+    opacity: 100%;
+    transform: rotatex(360deg);
+    background-color: #C7383C;
+    box-shadow: #000000;
+}
+
+ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+#nav a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #faebd7;
+    text-shadow: 0 0 3px #808080;
+}
+
+/* MAIN */
+
+main {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    background-image: url(./Images/Main.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    line-height: 30px;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 0px auto;
+    text-align: center;
+    text-shadow: 0 0 4px #f0d9da;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+    margin: 15px 15px;
+    padding: 5px 15px;
+    border: 2px inset #f0d9da;
+    border-radius: 20px;
+    background-color: rgb(250, 235, 215, 0.3);
+    height: fit-content;
+    box-shadow: 0 0 10px #000000;
+}
+
+h3, h4 {
+    border-bottom: 2px solid #000000;
+}
+
+#map img {
+    text-shadow: 1px 1px 4px #f5f5f5;
+    margin: 0 auto;
+    max-width: 40vw;
+    border-radius: 10%;
+    margin: 1px 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 4px #808080;
+}
+
+#attraction, #cuisine{
+    margin: 0 auto;
+}
+
+#tripadvisor {
+    width: 6rem;
+    vertical-align: middle;
+}
+
+.more {
+    color: #f5f5f5;
+    text-align: right;
+    text-shadow: 0 0 4px #000000;
+}
+
+.more a {
+    text-decoration: none;
+}
+
+#photos {
+    margin-right: 15px;
+    min-width: 15vw;
+}
+
+#photos img {
+    margin: 0 auto;
+    max-width: 10vw;
+    transition: all 0.3s ease;
+    border-radius: 10%;
+    margin: 1px 5px;
+    box-shadow: 0 0 5px #000000;
+}
+
+#photos img:hover {
+    transform: translate(-100%, 0) scale(3);
+}
+
+#footer {
+    color: #f5f5f5;
+    text-shadow: 0 0 2px #faebd7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Images/Tehran_Night_Panorama.jpg);
+    margin: 0 auto;
+    width: 100%;
+    height: 22rem;
+    background-size: cover;
+    background-position: center;
+}
+
+#me {
+    color: #000000;
+    text-align: center;
+    margin: 2px 4px;
+    background-color: rgb(240, 217, 218, 0.8);
+    max-width: 80em;
+}
+
+input {
+    text-align: center; 
+}
+
+.contact img {
+    width: 2rem;
+    margin: 0 5px;
+    transition: all 0.2 ease-in-out;
+}
+
+.contact img:hover {
+    transform: scale(1.5);
+}
