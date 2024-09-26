@@ -93,7 +93,7 @@ h1 {
     width: fit-content;
 }
 
-.button:hover {
+#nav .button:hover {
     opacity: 100%;
     transform: rotatex(360deg);
     background-color: #C7383C;
@@ -103,6 +103,11 @@ h1 {
 ul {
     list-style: none;
     margin: 0 auto;
+}
+
+li {
+    display: inline-flex;
+    margin: 0 1rem;
 }
 
 #nav a {
@@ -207,6 +212,11 @@ h2, h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#game button {
+    color: #faebd7;
+    text-shadow: 0 0 3px #808080;
 }
 
 #footer {
