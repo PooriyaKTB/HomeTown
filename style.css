@@ -105,11 +105,6 @@ ul {
     margin: 0 auto;
 }
 
-li {
-    display: inline-flex;
-    margin: 0 1rem;
-}
-
 #nav a {
     font-size: 0.8rem;
     text-decoration: none;
