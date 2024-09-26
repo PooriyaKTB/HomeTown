@@ -15,6 +15,7 @@
     <link rel="icon" href="./Images/MiladTower.png">
     <title>Tehran</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
 </head>
 <body>
     <header>
@@ -140,8 +141,16 @@
                     -Before it became a big city, Tehran was a village in the city of Rey. <br>
                     -Valiasr Street is the longest street in the Middle East in Tehran. <br>
                 </p>
-                
             </article>
+            <div id="game" class="box">
+                <h3>Let's have some FUN <sub>(Play Dice Game)</sub></h3>
+                <p>So far you have rolled:</p>
+                <ul id="list"></ul>
+                <button class="button" id="button-roll">Roll the dice</button>
+                <p>Total: <span id="total">0</span>. <span id="info">Keep playing!</span></p>
+                <button class="button" id="button-remove">Remove the last roll</button>
+                <button class="button" id="button-restart">Start again</button>
+            </div>
         </section>
         <section id="photos" class="box">
             <div id="history-img">
